@@ -1,0 +1,21 @@
+{
+    "name": "hc-dark",
+    "displayName": "HC-Dark",
+    "description": "high contrast theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "HC-Dark",
+                "uiTheme": "hc-black",
+                "path": "./themes/HC-Dark-color-theme.json"
+            }
+        ]
+    }
+}
